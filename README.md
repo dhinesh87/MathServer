@@ -82,7 +82,8 @@ body{
 </div>
 </body>
 </html>
-
+```
+```
 views.py
 
 from django.shortcuts import render
@@ -106,7 +107,8 @@ def rectarea(request):
         context['b'] = b
         print('Area', area)
     return render(request, 'mathapp/math.html', context) 
-
+```
+```
 urls.py
 
 from django.contrib import admin
@@ -121,10 +123,12 @@ urlpatterns = [
 ''''
 
 ## SERVER SIDE PROCESSING:
-![alt text](<../Screenshot 2024-05-06 220511.png>)
+
+![Screenshot 2024-05-06 215406](https://github.com/dhinesh87/MathServer/assets/146917182/681d662f-3051-4b6f-9ab1-79f9e545d0da)
 
 ## HOMEPAGE:
-![alt text](<../Screenshot 2024-05-06 220449.png>)
+
+![Screenshot 2024-05-06 220449](https://github.com/dhinesh87/MathServer/assets/146917182/3ce0a56d-6622-4266-88a9-7bfce245dcfc)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
